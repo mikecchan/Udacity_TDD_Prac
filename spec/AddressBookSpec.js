@@ -1,7 +1,7 @@
 // add a contact us a useful feature
 
-describe('Address Book', function()) {
-  it('should be able to add a contact', function()){
+describe('Address Book', function() {
+  it('should be able to add a contact', function(){
     var addressBook = new AddressBook(),
     thisContact = new Contact();
 
@@ -9,4 +9,4 @@ describe('Address Book', function()) {
 
     expect(addressBook.getContact(0)).toBe(thisContact);
   });
-}
+});
