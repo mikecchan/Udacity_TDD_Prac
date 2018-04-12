@@ -1,4 +1,5 @@
 function AddressBook() {
+  console.log("AddressBook()");
   this.contacts = [];
 }
 
